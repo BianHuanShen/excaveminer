@@ -1,2 +1,0 @@
-# excaveminer
-excavacion
