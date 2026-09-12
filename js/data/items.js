@@ -167,6 +167,23 @@ const ITEM_DEFINITIONS = {
   }
   ,
   // ===== NUEVOS TESOROS =====
+   /* ===== OBJETO ESPECIAL: LA CICLA DEL MINERO PERDIDO ===== */
+  lost_miner_bicycle: {
+    id: 'lost_miner_bicycle',
+    name: 'La Cicla del Minero Perdido',
+    icon: '🚲',
+    description: 'Cuenta la leyenda que un minero recorría las galerías sobre esta vieja cicla, a la que atribuía una fortuna extraordinaria. Un día, un derrumbe partió la montaña y sepultó al minero junto con su bicicleta. Nunca encontraron su cuerpo ni la cicla. Desde entonces permanece perdida en algún rincón del Abismo. Quien consiga encontrarla heredará parte de aquella suerte: recuperará +3 de vida cada 20 segundos.',
+    category: 'equipment',
+    rarity: 'very_rare',
+    rarityLabel: 'Muy épica',
+    xp: 200,
+    usable: false,
+    equippable: true,
+    consumable: false,
+    sellable: true,
+    droppable: false,
+    stackable: false
+  },
   ari_lost_diamond: {
     id: 'ari_lost_diamond', name: 'Diamante Perdido de Ari', icon: '◆',
     description: 'Un diamante mítico que Ari escondió en algún rincón del Abismo y, con el paso de los años, olvidó por completo dónde lo dejó. Algunos mineros aseguran que solo aparece ante quien está destinado a encontrarlo.',
@@ -390,23 +407,6 @@ const ITEM_DEFINITIONS = {
     category: 'equipment', rarity: 'common', xp: 12,
     usable: false, equippable: true, consumable: false,
     sellable: true, droppable: true, stackable: false
-  },
-    /* ===== OBJETO ESPECIAL: LA CICLA DEL MINERO PERDIDO ===== */
-  lost_miner_bicycle: {
-    id: 'lost_miner_bicycle',
-    name: 'La Cicla del Minero Perdido',
-    icon: '🚲',
-    description: 'Cuenta la leyenda que un minero recorría las galerías sobre esta vieja cicla, a la que atribuía una fortuna extraordinaria. Un día, un derrumbe partió la montaña y sepultó al minero junto con su bicicleta. Nunca encontraron su cuerpo ni la cicla. Desde entonces permanece perdida en algún rincón del Abismo. Quien consiga encontrarla heredará parte de aquella suerte: recuperará +3 de vida cada 20 segundos.',
-    category: 'equipment',
-    rarity: 'very_rare',
-    rarityLabel: 'Muy épica',
-    xp: 200,
-    usable: false,
-    equippable: true,
-    consumable: false,
-    sellable: true,
-    droppable: false,
-    stackable: false
   },
   /* ===== GEMA: AMATISTA ===== */
   amethyst: {
